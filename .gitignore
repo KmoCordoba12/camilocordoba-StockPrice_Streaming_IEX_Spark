@@ -1,0 +1,64 @@
+# Entorno virtual de Python
+venv/
+env/
+.venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribución y empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Credenciales y configuración sensible
+.env
+*.env
+config.local.py
+credentials.json
+*.key
+*.pem
+
+# AWS
+.aws/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.bak
+.cache/
+
+# Datos y outputs (excepto la carpeta data/alerts que sí queremos versionar)
+*.csv
+data/raw/
+data/processed/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
