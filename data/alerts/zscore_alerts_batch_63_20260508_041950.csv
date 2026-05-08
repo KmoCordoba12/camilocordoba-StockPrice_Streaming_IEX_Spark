@@ -1,0 +1,2 @@
+event_time,symbol,price,volume,mean_price,stddev_price,count_trades,z_score
+2026-05-07 22:21:55.494,BINANCE:SOLUSDT,88.21,2.834,88.20012345679012,0.0011111111111099456,81,8.888888888892497
