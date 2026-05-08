@@ -44,10 +44,13 @@ credentials.json
 *.bak
 .cache/
 
-# Datos y outputs (excepto la carpeta data/alerts que sí queremos versionar)
+# Datos y outputs
 *.csv
+!data/alerts/*.csv
 data/raw/
 data/processed/
+data/checkpoints/
+data/checkpoints_v2/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
