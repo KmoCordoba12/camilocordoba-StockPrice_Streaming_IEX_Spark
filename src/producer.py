@@ -20,8 +20,8 @@ load_dotenv()
 API_KEY = os.getenv("FINNHUB_API_KEY")
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 STREAM_NAME = "finnhub-stock-trades"
-SYMBOLS = ["AAPL", "NVDA", "MSFT", "GOOGL", "AMZN"]
-#SYMBOLS = ["BINANCE:BTCUSDT", "BINANCE:ETHUSDT", "BINANCE:SOLUSDT"]
+#SYMBOLS = ["AAPL", "NVDA", "MSFT", "GOOGL", "AMZN"]
+SYMBOLS = ["BINANCE:BTCUSDT", "BINANCE:ETHUSDT", "BINANCE:SOLUSDT"]
 
 # Validación de credenciales
 if not API_KEY:

@@ -1,0 +1,11 @@
+v1
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032304_314773_98.json","timestamp":1778210584319,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032305_418445_99.json","timestamp":1778210585420,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032306_517811_100.json","timestamp":1778210586519,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032307_639188_101.json","timestamp":1778210587640,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032308_759855_102.json","timestamp":1778210588762,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032309_873902_103.json","timestamp":1778210589877,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032310_965123_104.json","timestamp":1778210590965,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032312_076818_105.json","timestamp":1778210592077,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032313_177537_106.json","timestamp":1778210593179,"batchId":30}
+{"path":"file:///Users/camilocordoba/Documents/camilocordoba-StockPrice_Streaming_IEX_Spark/data/raw/batch_20260508_032314_280930_107.json","timestamp":1778210594281,"batchId":30}
