@@ -65,3 +65,6 @@ derby.log
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Logs del orquestador
+logs/

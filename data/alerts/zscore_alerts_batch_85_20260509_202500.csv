@@ -1,0 +1,2 @@
+event_time,symbol,price,volume,mean_price,stddev_price,count_trades,z_score
+2026-05-09 15:23:34.383,BINANCE:BTCUSDT,80819.57,0.00029,80821.21842105263,0.39918337693439443,19,-4.129483209657727

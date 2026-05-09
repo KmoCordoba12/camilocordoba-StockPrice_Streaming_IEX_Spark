@@ -20,8 +20,44 @@ load_dotenv()
 API_KEY = os.getenv("FINNHUB_API_KEY")
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 STREAM_NAME = "finnhub-stock-trades"
-#SYMBOLS = ["AAPL", "NVDA", "MSFT", "GOOGL", "AMZN"]
-SYMBOLS = ["BINANCE:BTCUSDT", "BINANCE:ETHUSDT", "BINANCE:SOLUSDT"]
+# Accciones y ETFs seleccionados para monitorear (diversificación sectorial y geográfica)
+SYMBOLS = [
+    # Criptomonedas (24/7)
+    "BINANCE:BTCUSDT",   # Bitcoin
+    "BINANCE:ETHUSDT",   # Ethereum
+    "BINANCE:SOLUSDT",   # Solana
+
+    # Tecnología
+    "AAPL",   # Apple
+    "NVDA",   # NVIDIA - líder de IA
+    "MSFT",   # Microsoft - mayor inversor de OpenAI
+    "GOOGL",  # Alphabet (Google) Class A
+    "AMZN",   # Amazon
+
+    # Sectores diversos
+    "PNR",    # Pentair - Industrial (agua)
+    "SMR",    # NuScale Power - Energía nuclear modular
+    "TTWO",   # Take-Two Interactive - Entretenimiento
+
+    # Sectores no-tech tradicionales
+    "JPM",    # JPMorgan Chase - Banca
+    "XOM",    # Exxon Mobil - Energía / Petróleo
+    "JNJ",    # Johnson & Johnson - Salud
+    "KO",     # Coca-Cola - Consumo defensivo
+    "GM",     # General Motors - Automotor
+
+    # Holdings y FinTech
+    "BRK.B",  # Berkshire Hathaway Class B - Holding diversificado
+    "NU",     # Nu Holdings (Nubank) - FinTech LATAM
+
+    # Sector inmobiliario
+    "LEN",    # Lennar - Constructora de viviendas
+    "O",      # Realty Income - REIT comercial
+
+    # ETFs para diversificación
+    "VOO",    # Vanguard S&P 500 (mercado USA)
+    "VWO",    # Vanguard Emerging Markets (mercados emergentes)
+]
 
 # Validación de credenciales
 if not API_KEY:

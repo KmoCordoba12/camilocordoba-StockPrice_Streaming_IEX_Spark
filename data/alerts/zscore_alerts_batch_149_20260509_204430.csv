@@ -1,0 +1,2 @@
+event_time,symbol,price,volume,mean_price,stddev_price,count_trades,z_score
+2026-05-09 15:44:22.540,BINANCE:ETHUSDT,2330.11,0.0329,2330.1005263157895,0.002294157338653187,19,4.129483209823327
