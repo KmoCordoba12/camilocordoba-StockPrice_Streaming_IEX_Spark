@@ -17,7 +17,7 @@ Structured Streaming como motor de análisis.
 Finnhub WebSocket  →  Productor (Python)  →  AWS Kinesis  →  Spark Structured Streaming  →  CSV + Dashboard
 
 ## Estructura del proyecto
-camilocordoba-StockPrice_Streaming_IEX_Spark/
+camilocordoba-StockPrice_Streaming_Spark/
 ├── src/                    # Código fuente del pipeline
 ├── data/
 │   └── alerts/             # Archivos CSV con las alertas generadas
@@ -38,8 +38,8 @@ camilocordoba-StockPrice_Streaming_IEX_Spark/
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/KmoCordoba12/camilocordoba-StockPrice_Streaming_IEX_Spark.git
-cd camilocordoba-StockPrice_Streaming_IEX_Spark
+git clone https://github.com/KmoCordoba12/camilocordoba-StockPrice_Streaming_Spark.git
+cd camilocordoba-StockPrice_Streaming_Spark
 
 # Crear y activar entorno virtual
 python3 -m venv venv
